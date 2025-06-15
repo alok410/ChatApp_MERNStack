@@ -1,0 +1,49 @@
+.user-list-item {
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-list-item:hover {
+  background-color: #38b2ac;
+  color: white;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+  background-color: #c0c0c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.user-avatar.fallback {
+  background-color: #888;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-email {
+  font-size: 12px;
+}

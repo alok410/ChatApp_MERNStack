@@ -1,0 +1,53 @@
+.homepage-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.homepage-header {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.homepage-header h1 {
+  font-size: 32px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-tabs {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-buttons button.active {
+  background-color: #ddd;
+  font-weight: bold;
+  border-bottom: 3px solid #3182ce;
+}
+
+.tab-content {
+  padding-top: 10px;
+}

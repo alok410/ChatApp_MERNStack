@@ -1,0 +1,63 @@
+{
+  "name": "frontned",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@chakra-ui/avatar": "^2.3.0",
+    "@chakra-ui/button": "^2.1.0",
+    "@chakra-ui/form-control": "^2.2.0",
+    "@chakra-ui/hooks": "^2.4.2",
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/input": "^2.1.2",
+    "@chakra-ui/layout": "^2.3.1",
+    "@chakra-ui/menu": "^2.2.1",
+    "@chakra-ui/modal": "^2.3.1",
+    "@chakra-ui/react": "^3.21.0",
+    "@chakra-ui/skeleton": "^2.1.0",
+    "@chakra-ui/spinner": "^2.1.0",
+    "@chakra-ui/toast": "^7.0.2",
+    "@chakra-ui/tooltip": "^2.3.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.10.0",
+    "backend": "file:..",
+    "framer-motion": "^12.18.1",
+    "lottie-react": "^2.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-lottie": "^1.2.10",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

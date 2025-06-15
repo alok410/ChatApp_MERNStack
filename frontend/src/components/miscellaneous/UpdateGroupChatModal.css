@@ -1,0 +1,56 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.rename-group {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.leave-btn {
+  background-color: crimson;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chatbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 90%;
+  max-width: 68%;
+  height: 88%;
+}
+
+@media (max-width: 768px) {
+  .chatbox-container {
+    max-width: 100%;
+  }
+
+  .hide-chat {
+    display: none;
+  }
+
+  .show-chat {
+    display: flex;
+  }
+}
